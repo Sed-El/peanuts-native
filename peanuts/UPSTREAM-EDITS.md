@@ -162,6 +162,8 @@ not edited (see table above).
 | `dm/games/010088401495E000/` (new: `game.tsv`, `README.md`, and the shader tables) + its row in `dm/games/README.md` | marked (`game.tsv`, the note, the row); tables allow-listed in `peanuts/upstream-unmarked.txt` | could be: Banana Native has no profile for THE HOUSE OF THE DEAD: Remake |
 | `dm/games/01007A3024D10000/` (new: `game.tsv`, `README.md`, and the shader tables) + its row in `dm/games/README.md` | marked (`game.tsv`, the note, the row); tables allow-listed in `peanuts/upstream-unmarked.txt` | could be: Banana Native has no profile for THE HOUSE OF THE DEAD 2: Remake |
 
+| `dm/gfx/tools/shader_split.py` (`iga_entries` v12) + `dm/tools/tests/test_split_iga.py` | marked `PEANUTS(upstream-candidate)` | **yes** — accept Alchemy `igArchive` version 12 (Crash Bandicoot N. Sane Trilogy), byte-compatible with version 13 |
+
 ## Generic host runtime-profile sites
 
 Behind `-PnxGenericHost=true` only (`DM_RUNTIME_PROFILE`, defined by `dm/peanuts/profile/game_profile_generic.h`); the default per-title build and the
